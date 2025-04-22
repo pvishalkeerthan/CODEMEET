@@ -21,6 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "start:dev": "npm run build && npm run server:dev",   // Updated to build and run the server
+    "start:prod": "npm run build && npm run server:prod",  // Added a separate production start script
     "server:dev": "nodemon server.js",
     "server:prod": "node server.js",
     "test": "react-scripts test",
@@ -46,5 +48,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": "16.x",      // Added to specify Node.js version compatibility
+    "npm": "8.x"         // Specify npm version to avoid using Bun
   }
 }
