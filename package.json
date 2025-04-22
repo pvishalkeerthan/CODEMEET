@@ -50,7 +50,7 @@
     "nodemon": "^3.1.9"
   },
   "engines": {
-    "node": "16.x",      // Added to specify Node.js version compatibility
-    "npm": "8.x"         // Specify npm version to avoid using Bun
+    "node": "16.x",     
+    "npm": "8.x"         
   }
 }
