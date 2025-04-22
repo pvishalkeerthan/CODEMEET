@@ -21,8 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "start:dev": "npm run build && npm run server:dev",   // Updated to build and run the server
-    "start:prod": "npm run build && npm run server:prod",  // Added a separate production start script
+    "start:dev": "npm run build && npm run server:dev",  
+    "start:prod": "npm run build && npm run server:prod",  
     "server:dev": "nodemon server.js",
     "server:prod": "node server.js",
     "test": "react-scripts test",
