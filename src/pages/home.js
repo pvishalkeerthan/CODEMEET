@@ -48,7 +48,7 @@ const Home = () => {
             <div className="main-content">
                 <div className="left-panel">
                     <h2>Start Coding Together</h2>
-                    <p>Join thousands of developers who are already using CodeMeet for:</p>
+                    <p>Join thousands of developers using CodeMeet for:</p>
                     <ul className="features-list">
                         <li>Real-time collaboration</li>
                         <li>Pair programming</li>
