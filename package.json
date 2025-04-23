@@ -2,7 +2,7 @@
   "name": "codemeet",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "dependencies": {  
     "codemirror": "^5.65.18",
     "cra-template": "1.2.0",
     "framer-motion": "^12.4.7",
