@@ -23,5 +23,5 @@ export const initSocket = async () => {
         timeout : 1000,
     };
 
-    return io(process.env.REACT_APP_BACKEND_URL , options);
+    return io(options);
 };
